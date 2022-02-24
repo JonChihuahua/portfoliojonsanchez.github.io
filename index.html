@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>portfolio</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/a7089a117e.js" crossorigin="anonymous"></script>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/jquery.validate.js"></script>
+  <script src="js/script.js"></script>
+  </head>
+<body>
+
+  <div class="wrapper">
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <h1>J<span>S</span></h1>
+        </div>
+        <ul class="menu">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#portafolio">Portafolio</a></li> 
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main class="main">
+    <div class="info-content">
+      <h1>I'm <span>Jonathan </span>Sanchez </h1>
+      <p>Frontend: HTML, CSS, JavaScript. Software deleveloper: Pyhton. Studing and practicing Django and PHP.
+         Objective: 
+        -Develop skills to be an expert in fullstack web and software development.
+        -Manage my own software company.</p>
+      <a download href="https://www.linkedin.com/in/jonatan-sanchez-b03045231/">
+        <button class="download-cv">Download CV</button>
+      </a>
+    </div>
+    <img class="Jonpicture" src="img/Jonback.png" alt="Pistachon">
+  </main> 
+</div>
+  
+  <div class="about" id="aboutme">
+    <img class="wife" src="img/Mewife.png" alt="Zulma y Jon">
+    <div class="about-info">
+      <h2>About me</h2>
+      <div class="divider"></div>
+      <p>I live in Delicias Chih Mexico. I'm 48 years old. I am happily married to my wife for 27 years. We have two sons, they are studying at the university. I am very passionate about programming. I like soccer and movies. I believe in God and study the bible. </p>
+      <a href="https://www.facebook.com/ZulmayJonatan">
+      <button class="download-cv">More about me</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="portfolio" id="portafolio">
+    <div class="portfolio-headings">
+      <h2>My Portfolio</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="card__img">
+        </div>
+        <div class="card_title">
+          <h2>Project Description</h2>
+        </div>
+        <div class="projects-links">
+          <a href="https://github.com/JonChihuahua">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-code"></i>
+          </a>
+         </div>
+         <div class="project-details-content">
+           <button class="project-details download-cv">
+             <a href="">
+              Project details
+              </a>
+            </button>
+         </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="contact-section" id="contacto">
+    <div class="contact-headings">
+      <h2>Keep in touch</h2>
+      <div class="divider"></div>
+    </div>
+                  
+    <div class="container-contact">
+      <div class="contact-form">
+        <h3>Send me a message...</h3>
+        <form action="send.php" method="post" class="form" >
+          <input type="text" placeholder="Name" name="name" required>
+          <input type="email" placeholder="Email" name="email" required>
+          <textarea placeholder="Message..." name="message" id="message"></textarea>
+          <button class="btn-submit" id="btnSend">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>Jonathan Sanchez</h2>
+      <h5>Software Developer</h5>
+    </div>
+    <div class="social-network">
+      <a href="https://www.instagram.com/antiquesdelicias/?hl=es-la">
+      <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/jonatan-sanchez-b03045231/">
+      <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://www.facebook.com/antiguedades.antiquesdelicias/">
+      <i class="fab fa-facebook"></i>
+      </a>
+     </div>
+  </footer>
+
+
+</body>
+</html>
+
+

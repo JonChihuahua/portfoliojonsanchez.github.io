@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #191c32;
+  color: #fff;
+}
+
+.portfolio {
+  width: 100vw;
+  height: 100vh;
+  background-color: #191c32;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+
+}
+
+.brand {
+  margin-top: -7px;
+  margin-left: 15px;
+  font-size: xx-large;
+  opacity: .6;
+}
+
+.brand span {
+  color: aqua;
+
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  white-space: nowrap;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+.menu .active {
+  color: aqua;
+}
+
+.menu a:hover {
+  background-color: aqua;
+  color: #191c32;
+  transition: ease-in .4%;
+  border-radius:  20px;
+}
+
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+span {
+  color: aqua;
+}
+
+.download-cv {
+  padding: 8px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius:  20px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.download-cv:hover {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.wife {
+  height: 350px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100vw;
+  align-items: center;
+}
+
+.about-info {
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.about-info h2{
+  font-size: 2em;
+  color: #191c32;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: aqua;
+  margin-top: 10px;
+  margin-bottom: 2.5em;
+}
+
+.portfolio-headings {
+  width: 100vw;
+  padding: 5em;
+}
+
+.portfolio-headings h2 {
+  font-size: 2.5em;
+}
+
+.portfolio .container {
+  width: 80vw;
+  height: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+}
+
+.card__img {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/2-original.png);
+  background-size: cover;
+}
+
+.card_title {
+  padding: 20px;
+}
+
+.projects-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.projects-links i {
+  font-size: 1.5em;
+}
+
+.projects-links i:hover {
+  color: aqua;
+  border: black;
+}
+
+.card .project-details {
+  margin: 0 auto;
+  margin: 1em;
+}
+
+.card .project-details a {
+  text-decoration: none;
+  color: #191c32;
+}
+
+.project-details-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.contact-section {
+  background-color: #191c32;
+}
+
+.contact-headings {
+  color: #fff;
+  margin-left: 5em;
+  
+}
+
+.container-contact {
+  background-image: url(../img/teclado.png);
+}
+
+.container-contact {
+  width: 80vw;
+  height: 50vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: Center;
+}
+
+.contact-form {
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2em;
+}
+
+.form input {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.form textarea {
+  height: 150px;
+  background: none;
+  color: #fff;
+  padding: 1.5em;
+  border: solid #fff;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  margin: 2em;
+  border: none;
+  text-transform: uppercase;
+  background-color: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  background-color: aqua;
+}
+
+.footer-content h2 {
+  font-size: 2em;
+}
+
+.footer-content h5 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1em;
+}
+
+.social-network i {
+  font-size: 1.5em;
+  color: black;
+}
+
+.social-network i:hover {
+  color: rgb(42, 42, 209);
+}
+
+@media screen and (max-width: 1680px) {
+
+  .container {
+    width: 1200px;  }
+
+
+    /* .container .medium {
+      width: 900px;
+    }*/
+
+    .about {
+      height: 600px;
+    }
+  
+    .portfolio {
+      height: 750px;
+    }
+
+    .contact-section {
+      height: 750px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+  
+  body {
+    background-color: #191c32;
+  }
+
+  .wrapper {
+    width: 960px;
+  }
+  
+  .about {
+    background-color: #fff;
+    height: 600px;
+  }
+
+  .portfolio {
+    height: 750px;
+  }
+
+  .contact-section {
+    height: 700px;
+  }
+  
+@media screen and (max-width: 980px) {
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .about {
+    height: 600px;
+  }
+
+  .portfolio {
+    height: 750px;
+  }
+
+  .contact-section {
+    height: 650px;
+  }
+
+  .container-contact {
+    height: 550px;
+  }
+
+  .container-contact h3 {
+    width: 425px;
+    justify-content: center;
+  }
+
+  .contact-form {
+    width: 425px;
+    justify-content: center;
+  }
+
+  .form {
+    width: 375px;
+    justify-content: center;
+  }
+
+    
+
+@media screen and (max-width: 736px) {
+
+  .wrapper {
+    width: 100%;
+    max-width: calc(100%);
+  }
+
+  .menu {
+    justify-content: right;
+  }
+
+  .about {
+    height: 700px;
+  }
+
+  .portfolio {
+    height: 720px;
+  }
+
+  .contact-section {
+    height: 600px;
+  }
+
+  .container-contact {
+    height: 500px;
+  }
+
+  .contact-form {
+    width: 420px;
+  }
+
+  .form {
+    width: 375px;
+  }
+
+
+
+  @media screen and (max-width: 480px) {
+
+    .wrapper {
+      width: 100%;
+      max-width: calc(100%);
+    }
+
+    .brand {
+      margin-top: 70px;
+      margin-left: 10px;
+      font-size: xx-large;
+    }
+            
+    .menu {
+      font-size: smaller;
+      width: 100%;
+      justify-content: right;
+      white-space: nowrap;
+      margin-block: 5px;
+    }
+
+    .about {
+      height: 650px;
+    }
+
+    .portfolio {
+      height: 700px;
+    }
+
+    .info-content {
+      margin-top: -200%;
+      width: 150%;
+    }
+
+    .main h1 {
+      padding-top: 20px;
+    }
+
+    .main p {
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+    }
+
+    .Jonpicture{
+      width: 350px;
+      margin-left: -40px;
+      margin-top: 100px;
+      display: flex;
+    }
+
+    .about {
+      display: list-item;
+    }
+
+    .wife {
+      height: 250px;
+      margin-left: 75px;
+    }
+
+    .container-contact {
+      height: 500px;
+    }
+
+    .contact-form {
+      width: 375px;
+      justify-content: center;
+    }
+
+    .form {
+      width: 375px;
+      justify-content: center;
+    }
+
+    
+
+    @media screen and (max-width: 380px) {
+
+      .wrapper {
+        width: 100%;
+        max-width: calc(100%);
+        height: 800px;
+      }
+
+      .info-content {
+        margin-top: -250%;
+        width: 150%;
+      }
+  
+      .brand {
+        margin-top: 35px;
+        margin-left: 10px;
+        font-size: large;
+      }
+              
+      .menu {
+        font-size: smaller;
+        width: 100%;
+        justify-content: right;
+        margin-block: 5px;
+        margin-left: -35px;
+      }
+
+      .about {
+        height: 750px;
+      }
+
+      .Jonpicture{
+        width: 250px;
+        margin-left: -50px;
+        display: flex;
+      }
+
+      .main h1 {
+        padding-top: 30px;
+      }
+
+      .main p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+      }
+
+      .wife {
+        height: 220px;
+        margin-left: 50px;
+      }
+
+      .portfolio {
+        height: 750px;
+      }
+
+      .contact-form {
+        width: 300px;
+        justify-content: center;
+      }
+
+      .contact-form h3 {
+        text-align: left;
+        margin-left: 10%;
+      }
+
+      .form {
+        width: 300px;
+      }
